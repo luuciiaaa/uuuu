@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
+
+*{ 
+    margin:0;
+	padding: 0;
+	box-sizing: border-box;
+	text-decoration: none;
+	list-style: none;
+}
+
+.body {
+	font-family: 'Poppins', sans-serif;
+	background-color: black;
+}
+.container{
+	max-width: 1200px;
+	margin: 0 auto;
+}
+	
+.header {
+	background-image: linear-gradient(
+	 rgba(0,0,0,0.7),
+	 rgba(0,0,0,0.7)),
+	 url(https://fotografias.lasexta.com/clipping/cmsimages01/2021/11/22/80443BD5-CFE6-4395-8585-D36F147B3053/98.jpg?crop=800,450,x0,y42&width=1900&height=1069&optimize=high&format=webplyg);
+    	background-repeat: no-repeat; background-size: cover; min-height: 70vh;
+		display: flex;
+		align-items: center;
+
+		
+}    
+.menu{
+	position: absolute;
+	top: 0;
+	left:0;
+	right:0;
+	display: flex;
+	align-items: center;
+	justify-content; space-between;
+	
+}
+
+
+.menu .navbar ul li {
+	position: relative;
+	float:left;
+}
+
+.menu .navbar ul li a{
+	font-size: 20px;
+	padding:20px;
+	color: white;
+	display: block;
+	font-weight: 700px;
+}
+
+.menu .navbar ul li a:hover{
+	color: #FF0092;
+}
+
+
+
+.menu label {
+	cursor: pointer;
+	display: none;
+}
+
+.header-content {
+	text-align: center;
+}
+
+.header-content h1{
+	font-size:100px;
+	line-height: 90px;
+	color: white;
+	text-transform: uppercase;
+	margin-bottom: 20px;
+}
+
+.header-content p {
+	font-size: 21px;
+	color: white;
+	padding: 0 250;
+	margin-bottom: 70px;
+}
+
+
+.btn-1 {
+	display: inline-block;
+	padding: 5px 5px;
+	background-color: white;
+	margin: center;
+	color: black;
+	text-transform: uppercase;
+}
+
+.btn-1:hover {
+	background-color: beige;
+}
+
+.chicot {
+	padding: 100px 0;
+	background-color: white;
+	position: relative;
+}
+
+.chicote-content {
+	text-align: center;
+}
+
+.chicote-content h2 {
+	font-size: 55px;
+	line-height: 70px;
+	color: black;
+	text-transform:uppercase;
+	padding: 0 250px;
+}
+
+.txt-p {
+	font-size: 16px;
+	color: gray;
+	padding: 0 250px;
+	margin-bottom: 35px;
+}
+
+.chicote-1 {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 50px;
+}
+
+
+.chicot-1 {
+	position: absolute;
+}
+
+.txt-p {
+	font-size: 19px;
+	color: gray;
+	padding: 0 250px;
+	margin-bottom: 20px;
+	text-align: center;
+}  
+
+.btn-1 {
+	display: inline-block;
+	padding: 50px 50px;
+	background-color: white;
+	margin: center;
+	color: black;
+	text-transform: uppercase;
+	font-size: 20px;
+}
+
+.services-1 h2 {
+	width: 200px;
+	align-itemsign: center;
+}
+
+.services-group {
+	
